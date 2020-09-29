@@ -40,5 +40,20 @@ fields:
   config:
     required: false
   label: post
+- name: select
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: journal
+      file: 
+      path: 
+  label: select
+  showOnly:
+    field: author
+    value: Nichlas W. Andersen
 pages:
 - journal/macos-development-environment.md
