@@ -30,5 +30,17 @@ fields:
 - type: boolean
   name: dark_mode
   label: Dark mode
+- name: posts
+  type: text
+  config:
+    required: false
+  label: Posts
+  showOnly:
+    field: dark_mode
+- name: post
+  type: text
+  config:
+    required: false
+  label: post
 pages:
 - data/theme.json
